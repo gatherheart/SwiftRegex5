@@ -13,6 +13,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "SwiftRegex", dependencies: [], path: "SwiftRegex5.playground/Sources/"),
+        .target(name: "SwiftRegex", dependencies: [], path: "SwiftRegex5/"),
     ]
 )

@@ -11,6 +11,7 @@ if str.containsMatch(of: "play\\w+") {
     XCTAssert(true, "basic match")
 }
 
+
 if let firstWord: String = str.firstMatch(of: "(?<name>\\w)(\\w*)") {
     XCTAssertEqual(firstWord, "Hello", "extract match")
 }
